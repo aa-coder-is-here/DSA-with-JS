@@ -20,4 +20,13 @@ console.log(c+d);
 
 console.log(typeof(c+d)); // It's a string
 
-// It's means if the "+" sign is used it's not always addition it can be concatenated tooadd
+// It's means if the "+" sign is used it's not always addition it can be concatenated too
+
+let i = 10;
+let j = 20;
+
+console.log(`The sum of ${i} and ${j} is: ` + i + j);
+
+// Now sum of this is not gonna 30 coz the first on is string and the others are number but js is from left to right
+
+console.log(`The sum of ${i} and ${j} is: ` + (i + j)); //This is correct the bracket give the prioity 
