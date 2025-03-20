@@ -30,3 +30,5 @@ console.log(`The sum of ${i} and ${j} is: ` + i + j);
 // Now sum of this is not gonna 30 coz the first on is string and the others are number but js is from left to right
 
 console.log(`The sum of ${i} and ${j} is: ` + (i + j)); //This is correct the bracket give the prioity 
+
+console.log( i + j + ` is sum of ${i} and ${j}`); // The left to right scene :)
