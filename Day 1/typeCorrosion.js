@@ -17,4 +17,4 @@ console.log(typeof("1" % 1));
 
 // JS do that coz it think the programmer mistakenly do that and it do type corrosion
 
-// Remember is process is called "type corrosion".
+// Remember is proBtype corrosion".
