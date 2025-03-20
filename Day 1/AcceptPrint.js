@@ -36,3 +36,5 @@ let input = process.argv[2];
 var age = Number(input);
 
 // By dividing
+
+// This is process is called "Type Casting"/"Type Conversion".
